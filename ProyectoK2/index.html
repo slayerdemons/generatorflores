@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Flores</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">¡Hola Soy Iván! ¿Cómo estás? </h1>
+        <h4>Perdon por la demora, estube trabajando en esto.</h4>
+        
+        <!-- Formulario -->
+        <form id="formulario">
+            <div class="mb-3">
+                <label for="name" class="form-label">Nombre:</label>
+                <input type="text" id="name" class="form-control" placeholder="Tu nombre">
+            </div>
+            <div class="mb-3">
+                <label for="cantidad" class="form-label">Cantidad :</label>
+                <p>Ingresa una cantidad</p>
+                <input type="number" id="cantidad" class="form-control" placeholder="Cantidad" min="1">
+            </div>
+            <div class="mb-3">
+                <label for="fondo" class="form-label">¿Quieres un fondo? (sí/no):</label>
+                <input type="text" id="fondo" class="form-control" placeholder="sí/no">
+            </div>
+            <button type="button" class="btn btn-primary w-100" onclick="mostrarDatos()">Mostrar</button>
+        </form>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
